@@ -153,6 +153,12 @@
   <ItemGroup>
     <Image Include="resource\2733.bmp" />
     <Image Include="resource\bg.bmp" />
+    <Image Include="resource\button.bmp" />
+    <Image Include="resource\button2.bmp" />
+    <Image Include="resource\gameover.bmp" />
+    <Image Include="resource\heart.bmp" />
+    <Image Include="resource\poop.bmp" />
+    <Image Include="resource\start.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

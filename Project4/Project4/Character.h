@@ -18,6 +18,7 @@ private:
 	int ani;
 	int hp;
 	int jump;
+	RECT box;
 
 
 public:
@@ -35,6 +36,7 @@ public:
 	int GetAni() const;
 	int GetHp() const;
 	int GetJump() const;
+	RECT GetBox() const;
 
 	void Input();
 };

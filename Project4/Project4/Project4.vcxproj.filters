@@ -42,5 +42,23 @@
     <Image Include="resource\bg.bmp">
       <Filter>리소스 파일</Filter>
     </Image>
+    <Image Include="resource\poop.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\heart.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\gameover.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\start.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\button.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\button2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
   </ItemGroup>
 </Project>

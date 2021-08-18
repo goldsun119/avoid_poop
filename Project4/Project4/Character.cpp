@@ -5,6 +5,11 @@
 Character::Character()
 {
 	x = 383, y = 425;
+	hp = 3;
+	box.left = x;
+	box.top = y;
+	box.right = x + 50;
+	box.bottom = y + 80;
 }
 
 
@@ -15,10 +20,19 @@ Character::~Character()
 void Character::SetPosX(int x)
 {
 	Character::x = x;
+
+	box.left = Character::x;
+	box.top = Character::y;
+	box.right = Character::x + 50;
+	box.bottom = Character::y + 80;
 }
 void Character::SetPosY(int y)
 {
 	Character::y = y;
+	box.left = Character::x;
+	box.top = Character::y;
+	box.right = Character::x + 50;
+	box.bottom = Character::y + 80;
 }
 void Character::SetAni(int ani)
 {
@@ -56,6 +70,11 @@ int Character::GetJump() const
 	return jump;
 }
 
+RECT Character::GetBox() const
+{
+	return box;
+}
+
 void Character::Input()
 {
 	ani = NONE;
@@ -67,6 +86,8 @@ void Character::Input()
 			x -= 15;
 			if (x < 0)
 				x = 0;
+			box.left = Character::x;
+			box.right = Character::x + 50;
 		}
 	}
 
@@ -78,6 +99,8 @@ void Character::Input()
 			x += 15;
 			if (x > 740)
 				x = 740;
+			box.left = Character::x;
+			box.right = Character::x + 50;
 		}
 	}
 

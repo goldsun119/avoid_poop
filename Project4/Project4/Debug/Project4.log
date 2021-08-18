@@ -1,6 +1,0 @@
-﻿  Character.cpp
-  소스.cpp
-c:\users\jes\source\repos\project4\project4\소스.cpp(83): warning C4101: 'pt' :참조되지 않은 지역 변수입니다.
-c:\users\jes\source\repos\project4\project4\소스.cpp(82): warning C4101: 'rect' :참조되지 않은 지역 변수입니다.
-  코드를 생성하고 있습니다...
-  Project4.vcxproj -> C:\Users\JES\source\repos\Project4\Debug\Project4.exe
